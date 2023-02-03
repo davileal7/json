@@ -1,0 +1,13 @@
+[
+    {
+        "nome" : "Davi",
+        "idade": 36,
+        "esta_trabalhando": true,
+        "work_details": {
+            "profisssao" : "Programador",
+            "empresa": "Empresa X" 
+        },
+        "hobbies": ["Academia","Games"]
+    }
+]
+
