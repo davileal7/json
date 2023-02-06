@@ -4,7 +4,7 @@ const objs = [
         idade: 36,
         esta_trabalhando: true,
         work_details: {
-            profisssao: 'Programador',
+            profissao: 'Programador',
             empresa: 'Empresa X'
         },
         hobbies: ['Academia', 'Games']
@@ -24,14 +24,12 @@ const objs = [
 // JSON
 // converter objeto para json
 const jsonData = JSON.stringify(objs)
-
 console.log(jsonData)
 console.log(typeof jsonData)
 
 
 // converter json para objeto
 const objData = JSON.parse(jsonData);
-
 console.log(objData)
 console.log(typeof objData)
 
